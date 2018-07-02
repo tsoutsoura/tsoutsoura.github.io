@@ -1,9 +1,9 @@
 body{
-    /* background: url("background.jpg");
+    background: url("background.jpg");
     background-size: cover;
-    color: #e6e6e6;
-    e9e6e0 */
-    background-color: #fff7e6;
+    color: #e6e6e6; 
+    /*e9e6e0 */
+    /* background-color: #fff7e6; */
     font-family: 'palatino';
 }
 
@@ -28,7 +28,7 @@ ul.nav.flex-column{
 
 a.nav-link{
     text-align: center;
-    color: 	#800000;
+    color: 	white;
 }
 
 /* ----------------------main--------------------------------*/
@@ -67,7 +67,7 @@ h4{
 #faculty{
     margin-top: 40px;
     border-bottom-style:solid;
-    border-bottom-color: gray;
+    border-bottom-color: #d9d9d9;
     border-width:1px;
     margin-right: 5%;
 }
@@ -82,14 +82,23 @@ h1{
     margin-bottom: 30px;
     text-align: right;
     margin-right: 10%;
-    color: 	#800000;
+    color: 	white;
 }
 
 .title{
     border-bottom-style:solid;
-    border-bottom-color: gray;
+    border-bottom-color: #d9d9d9;
     border-width:1px;
     margin-right: 5%;
+}
+
+h2{
+    color:white;
+    text-align: center;
+}
+
+.index-h3{
+    color: white;
 }
 
 
@@ -119,7 +128,7 @@ h3{
     margin-top: 50px;
     margin-bottom: 30px;
     /* color: #ffad33; */
-    color:#800000;
+    color:orange;
 }
 
 
@@ -134,7 +143,7 @@ h3{
     margin-bottom: 30px;
     border-width:1px;  
     border-bottom-style:solid;
-    border-bottom-color: gray;
+    border-bottom-color: #d9d9d9;
 }
 
 
@@ -152,7 +161,7 @@ h3{
 }
 
 a{
-    color: #668cff;
+    color: #b3b3ff;
 }
 
 
@@ -171,7 +180,7 @@ a{
     margin-bottom: 30px;
     border-width:1px;  
     border-bottom-style:solid;
-    border-bottom-color: gray;
+    border-bottom-color: #d9d9d9;
 }
 
 
