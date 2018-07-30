@@ -1,104 +1,112 @@
- </!DOCTYPE html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
-  <title>Margarita Tsoutsoura <br/><font size="3"> Associate Professor of Finance, Samuel Curtis Johnson Graduate School of Management Cornell</font></title>
+  <meta name="description" content="The Personal Site of Margarita Tsoutsoura">
+  <meta name="keywords" content="Margarita,Tsoutsoura">
+
+  <title>Margarita Tsoutsoura </title>
+
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
   <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
     crossorigin="anonymous">
   <!-- Customized CSS -->
-  <link rel="stylesheet" type="text/css" href="index.css">
+  <link rel="stylesheet" type="text/css" href="./css/styles.css">
+  <!-- <link rel="icon" href="res/favi.ico" type="image/x-icon" /> -->
 </head>
 
 <body>
-
-  <div class="row">
-    <div class="col-2">
-
-      <ul class="nav flex-column">
-        <li class="nav-item">
-          <a class="nav-link" href="index.html">Home</a>
+  <div class="wrapper">
+    <nav id="sidebar">
+      <ul class="list-unstyled components">
+        <li class="active">
+          <a href="index.html">Home</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="aboutme.html">About me</a>
+        <li>
+          <a href="aboutme.html">About Me</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="cv.html">CV</a>
+        <li>
+          <a href="cv.html">CV</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="research.html">Research</a>
+        <li>
+          <a href="research.html">Research</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="media.html">Media</a>
+        <li>
+          <a href="media.html">Media</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="teaching.html">Teaching</a>
+        <li>
+          <a href="teaching.html">Teaching</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="contactme.html">Contact me</a>
+        <li>
+          <a href="contactme.html">Contact Me</a>
         </li>
-        <!-- <li class="nav-item">
-          <a class="nav-link disabled" href="#">Disabled</a>
-        </li> -->
       </ul>
-    </div>
+    </nav>
 
-
-
-    <div class="col">
-      <div id="name-div">
-        <h1>Margarita Tsoutsoura</h1>
-      </div>
-
-      <div id="img-div">
-        <img id="indeximg" src="./includes/indexphoto.png" alt="indexphoto.png">
-      </div>
-
-      <div id="intro">
-        
-        <div class="title">
-          <h2>Margarita Tsoutsoura</h2>
-        </div>
-        <div class="title">
-          <h3 class="index-h3">Associate Professor of Finance and John and Dyan Smith Endowed Chair of Family Business Samuel Curtis Johnson Graduate
-            School of Management Cornell SC Johnson College of Business</h3>
-        </div>
-        <div class="title">
-          <h3 class="index-h3">Faculty Research Fellow NBER</h3>
-
-        </div>
-        <div id="recent papers">
-
-          <h4>Recent Papers</h4>
-          <div class="paper">
-            <h5>Disclosing the Gender Pay Gap
-            </h5>
-            <p>with Morten Bennedsen, Elena Simintzi and Daniel Wolfenzon</p>
-            <p>
-              <em>Abstract: </em>We exploit a 2006 legislation change in Denmark that requires firms to provide gender dis-aggregated
-              wage statistics to study the effect of transparency on gender pay disparities on employee and firm outcomes.
-              Using detailed employee-employer administrative data we find that the policy has an effect in changing compensation
-              within firms, through slowing the growth of compensation for male employees. Furthermore, we find that such
-              changes in firm wage policies following the passage of the law are associated with negative outcomes on overall
-              firm productivity.
-            </p>
+    <div id="content">
+      <nav class="navbar navbar-default">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <button type="button" id="sidebarCollapse" class="btn btn-info navbar-btn">
+              <i class="glyphicon glyphicon-align-left"></i>
+              <span>Toggle Sidebar</span>
+            </button>
           </div>
-        </div>
+
+          <div id="pageContent">
+            <div class="row">
+              <div class="col-12 col-sm-6">
+                <h1>Margarita Tsoutsoura</h1>
+                <div id="intro">
+                  <div class="title">
+                    <h3> Associate Professor of Finance </h3>
+                    <h4> John and Dyan Smith Endowed Chair of Family Business </h3>
+                      <h4> Samuel Curtis Johnson Graduate School of Management </h3>
+                        <h4> Cornell SC Johnson College of Business</h3>
+                          <h4> Faculty Research Fellow NBER</h3>
+                  </div>
+                  <br/>
+                  <div>
+                    <h2>Recent Papers</h2>
+                    <div class="paper">
+                      <h3>
+                        <a href="https://research.mbs.ac.uk/investment-risk/Portals/0/docs/8.Tsoutsoura_Gender_Gap_abstract.pdf">
+                          Disclosing the Gender Pay Gap
+                        </a>
+                      </h3>
+                      <p>with Morten Bennedsen, Elena Simintzi and Daniel Wolfenzon</p>
+                      <p>
+                        <em>Abstract: </em>We exploit a 2006 legislation change in Denmark that requires firms to provide gender
+                        dis-aggregated wage statistics to study the effect of transparency on gender pay disparities on employee
+                        and firm outcomes. Using detailed employee-employer administrative data we find that the policy has
+                        an effect in changing compensation within firms, through slowing the growth of compensation for male
+                        employees. Furthermore, we find that such changes in firm wage policies following the passage of
+                        the law are associated with negative outcomes on overall firm productivity.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-sm-6">
+                <img id="indeximg" src="./includes/indexphoto.png" alt="indexphoto.png">
+              </div>
+            </div>
+          </div>
+      </nav>
       </div>
 
-    </div>
-  </div>
 
-
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-    crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
-    crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
-    crossorigin="anonymous"></script>
+      <!-- Bootstrap JS -->
+      <script src="//code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+      <script src="//cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+      <script src="//stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+      <script src="./js/sidebarCollapse.js"></script>
 
 </body>
 
