@@ -170,3 +170,44 @@ iframe{
         display: none;
     }
 }
+
+
+#index_title{
+    margin-top: 10%;
+}
+
+#profile_image{
+    margin-top: 10%;
+}
+
+#intro{
+    margin-top: 5%;
+}
+
+#recent_title{
+    margin-top: 5%;
+}
+
+#aboutme-main{
+    /* margin-left: 10%; */
+    margin-right: 25%;
+}
+
+#aboutme_title{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    /* margin-left: 10%; */
+}
+
+.title{
+    margin-top: 5%;
+    margin-bottom: 5%
+}
+
+.paper{
+    margin-top: 3%;
+}
+
+.course{
+    margin-bottom: 3%;
+}
