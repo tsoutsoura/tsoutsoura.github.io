@@ -1,2 +1,3 @@
 User-agent: *
+Sitemap: http://tsoutsoura.com/sitemap.xml
 Disallow: /media
