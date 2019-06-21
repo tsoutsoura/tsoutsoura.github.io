@@ -1,10 +1,10 @@
 @import url("//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css");
 @import url('//fonts.googleapis.com/css?family=Lora');
 
-a { 
+a {
     text-decoration: none !important;
-    color: inherit; 
-} 
+    color: inherit;
+}
 
 html{
     overflow: scroll;
@@ -126,7 +126,7 @@ a.article, a.article:hover {
     position: absolute;
     top: 0;
     right: 0;
-    
+
 }
 #content.active {
     width: 100%;
@@ -169,6 +169,15 @@ iframe{
     #sidebarCollapse span {
         display: none;
     }
+    #desktop_download {
+      display: none;
+    }
+}
+
+@media (min-width: 768px) {
+  #mobile_download {
+    display: none;
+  }
 }
 
 
