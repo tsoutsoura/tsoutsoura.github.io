@@ -170,13 +170,13 @@ iframe{
         display: none;
     }
     #desktop_download {
-      display: none;
+      display: none !important;
     }
 }
 
 @media (min-width: 768px) {
   #mobile_download {
-    display: none;
+    display: none !important;
   }
 }
 
