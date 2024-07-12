@@ -16,6 +16,26 @@
     <!-- Customized CSS -->
     <link rel="stylesheet" type="text/css" href="./css/styles.css">
     <!-- <link rel="icon" href="res/favi.ico" type="image/x-icon" /> -->
+
+    <!-- Custom CSS for iframe scrolling -->
+    <style>
+        .scroll-wrapper {
+            -webkit-overflow-scrolling: touch;
+            overflow-y: scroll;
+            /* Allows for scrolling within the wrapper if needed */
+            height: 80vh;
+            /* Sets the height of the scroll-wrapper to 80% of the viewport height */
+        }
+
+        iframe#desktop_download {
+            width: 100%;
+            /* Ensures the iframe takes up the full width of its container */
+            height: 100%;
+            /* Ensures the iframe height matches the scroll-wrapper height */
+            overflow: hidden;
+            /* Prevents an internal scrollbar in the iframe */
+        }
+    </style>
 </head>
 
 <body>
@@ -56,12 +76,11 @@
                         </button>
                     </div>
 
-                    <div id="pageContent">
+                    <div id="pageContent" class="scroll-wrapper">
                         <a href="https://tsoutsoura.github.io/MARGARITA TSOUTSOURA_CV.pdf" download
                             id="mobile_download">Download CV</a>
-                        <iframe
-                            src="https://drive.google.com/viewerng/viewer?url=https://tsoutsoura.github.io/MARGARITA TSOUTSOURA_CV.pdf?pid=explorer&efh=false&a=v&chrome=false&embedded=true"
-                            width="100%" id="desktop_download">
+                        <iframe src="https://tsoutsoura.github.io/MARGARITA TSOUTSOURA_CV.pdf" width="100%"
+                            id="desktop_download">
                             This browser does not support PDFs. Please download the PDF to view it:
                             <a href="https://tsoutsoura.github.io/MARGARITA TSOUTSOURA_CV.pdf">Download PDF</a>
                         </iframe>
