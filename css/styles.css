@@ -194,9 +194,9 @@ iframe {
         display: none;
     }
 
-    #desktop_download {
+    /* #desktop_download {
         display: none !important;
-    }
+    } */
 }
 
 @media (min-width: 768px) {

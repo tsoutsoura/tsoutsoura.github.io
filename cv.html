@@ -99,14 +99,17 @@
         <script>
             document.addEventListener("DOMContentLoaded", function () {
                 var iframe = document.getElementById('desktop_download');
-                var isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
-                var pdfUrl = "https://tsoutsoura.github.io/MARGARITA%20TSOUTSOURA_CV.pdf";
-                var googleDocsUrl = "https://docs.google.com/gview?url=" + encodeURIComponent(pdfUrl) + "&embedded=true";
+                var ua = navigator.userAgent.toLowerCase();
+                var isMobile = /iphone|ipod|android/.test(ua);
 
-                if (isMobile) {
-                    iframe.src = googleDocsUrl;
+                // Additional check for iPads
+                var isiPad = ua.indexOf('macintosh') > -1 && navigator.maxTouchPoints && navigator.maxTouchPoints > 2;
+
+                // Combine all checks for mobile devices
+                if (isMobile || isiPad) {
+                    iframe.src = "https://docs.google.com/gview?url=" + encodeURIComponent("https://tsoutsoura.github.io/MARGARITA%20TSOUTSOURA_CV.pdf") + "&embedded=true";
                 } else {
-                    iframe.src = pdfUrl;
+                    iframe.src = "https://tsoutsoura.github.io/MARGARITA%20TSOUTSOURA_CV.pdf";
                 }
 
                 // Set iframe height
